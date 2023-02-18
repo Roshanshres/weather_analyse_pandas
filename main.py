@@ -10,9 +10,7 @@
 #
     #more data sp we use pandas library for data analysis
 
-
-
 import pandas
 
 data = pandas.read_csv("weather.csv")
-print(data)
+print(data["temp"])
