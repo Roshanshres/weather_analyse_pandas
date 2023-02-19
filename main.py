@@ -13,4 +13,5 @@
 import pandas
 
 data = pandas.read_csv("weather.csv")
-print(data["temp"])
+print(type(data))#check the type
+# print(data["temp"])
